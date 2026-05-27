@@ -1,0 +1,16 @@
+[project]
+name = "society-inc-api"
+version = "0.1.0"
+description = "API FastAPI para gestao de campos society."
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi",
+  "uvicorn",
+  "tortoise-orm",
+  "passlib[bcrypt]",
+  "pydantic",
+  "email-validator",
+]
+
+[tool.ruff]
+line-length = 100
